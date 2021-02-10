@@ -8,28 +8,28 @@ public class BookTest {
 		Book b2 = new Book();
 		Magazine m = new Magazine();
 		
-		b1.setIsbn("21424");
-		b1.setTitle("Java Pro");
-		b1.setAuthor("김하나");
-		b1.setPublisher("Jaen.kr");
-		b1.setPrice(15000);
-		b1.setDesc("기본문법");
+		b1.isbn = "21424";
+		b1.title = "Java Pro";
+		b1.author = "김하나";
+		b1.publisher = "Jaen.kr";
+		b1.price = 15000;
+		b1.desc = "기본문법";
 		
-		b2.setIsbn("35355");
-		b2.setTitle("OOAD 분석,설계");
-		b2.setAuthor("소나무");
-		b2.setPublisher("Jaen.kr");
-		b2.setPrice(30000);
-		b2.setDesc("");
+		b2.isbn = "35355";
+		b2.title = "OOAD 분석,설계";
+		b2.author = "소나무";
+		b2.publisher = "Jaen.kr";
+		b2.price = 30000;
+		b2.desc = "";
 	
-		m.setIsbn("35535");
-		m.setTitle("Java World");
-		m.setAuthor("편집부");
-		m.setPublisher("androidjava.com");
-		m.setPrice(7000);
-		m.setYear(2013);
-		m.setMonth(2);
-		m.setDesc("");
+		m.isbn = "35535";
+		m.title = "Java World";
+		m.author = "편집부";
+		m.publisher = "androidjava.com";
+		m.price = 7000;
+		m.year = 2013;
+		m.month = 2;
+		m.desc = "";
 		
 		System.out.println("************************도서목록*****************************");
 		System.out.println(b1.toString());
