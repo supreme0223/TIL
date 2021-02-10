@@ -8,7 +8,7 @@ This is one of the most basic UML Class Diagram Models. As Visualizing classes w
 
 
 
-![Skate](/Users/jake2/TIL/UML/img/Skate.png)
+![Skate](img/Skate.png)
 
 
 
